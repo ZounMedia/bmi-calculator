@@ -7,6 +7,206 @@
 
 body {
   font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 150%; /* 24px */
+  color: #5e6e85;
+  justify-content: center;
+}
+body .container {
+  position: relative;
+  width: 100%;
+}
+body .container header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .container header .heading {
+  height: 640px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 24px;
+  border-radius: 0 0 35px 35px;
+  background: linear-gradient(290deg, #d6e6fe 0%, rgba(214, 252, 254, 0) 100%);
+}
+body .container header .heading .logo {
+  width: 40px;
+  height: 40px;
+  margin-top: 32px;
+}
+body .container header .heading .logo img {
+  width: 100%;
+  height: 100%;
+}
+body .container header .heading h1 {
+  margin-top: 24px;
+  color: var(--Gunmetal, #253347);
+  text-align: center;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 110%; /* 52.8px */
+  letter-spacing: -2.4px;
+}
+body .container header .heading p {
+  text-align: center;
+  margin-top: 24px;
+}
+body .container header .bmi-container {
+  width: calc(100% - 24px);
+  position: relative;
+  top: -150px;
+  display: flex;
+  height: 640px;
+  border-radius: 16px;
+  background: #ffffff;
+  box-shadow: 16px 32px 56px 0px rgba(143, 174, 207, 0.25);
+}
+body .container header .bmi-container .bmi {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+}
+body .container header .bmi-container .bmi h3 {
+  color: #253347 #253347;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -1.2px;
+}
+body .container header .bmi-container .bmi .settings {
+  width: 100%;
+  margin-top: 24px;
+}
+body .container header .bmi-container .bmi .settings .radio {
+  height: 30px;
+  display: flex;
+}
+body .container header .bmi-container .bmi .settings .radio .label {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+body .container header .bmi-container .bmi .settings .radio .label span {
+  margin-left: 18px;
+}
+body .container header .bmi-container .bmi .settings .inputs {
+  width: 100%;
+  height: 200px;
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+body .container header .bmi-container .bmi .settings .inputs .height,
+body .container header .bmi-container .bmi .settings .inputs .weight {
+  width: 100%;
+  height: 92px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+body .container header .bmi-container .bmi .settings .inputs label {
+  height: 35%;
+  font-size: 14px;
+}
+body .container header .bmi-container .bmi .settings .inputs .input-groups {
+  height: 65%;
+  display: flex;
+  justify-content: space-between;
+}
+body .container header .bmi-container .bmi .settings .inputs .input-groups .input-group {
+  height: 100%;
+  width: 45%;
+  display: flex;
+  border-radius: 12px;
+  border: 1px solid #d8e2e7;
+  background: #ffffff;
+}
+body .container header .bmi-container .bmi .settings .inputs .input-groups .input-group input,
+body .container header .bmi-container .bmi .settings .inputs .input-groups .input-group h3 {
+  width: 50%;
+  height: 100%;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -1.2px;
+}
+body .container header .bmi-container .bmi .settings .inputs .input-groups .input-group input {
+  border: none;
+  outline: none;
+  text-align: center;
+  color: #253347;
+}
+body .container header .bmi-container .bmi .settings .inputs .input-groups .input-group input::placeholder {
+  color: #253347;
+  opacity: 1; /* Firefox */
+}
+body .container header .bmi-container .bmi .settings .inputs .input-groups .input-group input::-ms-input-placeholder {
+  /* Edge 12 -18 */
+  color: #253347;
+}
+body .container header .bmi-container .bmi .settings .inputs .input-groups .input-group h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #345ff6;
+}
+body .container header .bmi-container .bmi .settings .inputs .input-groups .input-group:hover {
+  cursor: pointer;
+}
+body .container header .bmi-container .bmi .results {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 257px;
+  margin-top: 24px;
+  border-radius: 16px;
+  background: linear-gradient(90deg, #345ff6 0%, #587dff 100%);
+  padding: 32px;
+  color: #ffffff;
+}
+body .container header .bmi-container .bmi .results .result {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 50%;
+}
+body .container header .bmi-container .bmi .results .result h4 {
+  font-weight: 600;
+  line-height: 150%; /* 24px */
+}
+body .container header .bmi-container .bmi .results .result h1 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 110%; /* 52.8px */
+  letter-spacing: -2.4px;
+}
+body .container header .bmi-container .bmi .results .description {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  text-align: center;
+  font-size: 14px;
+  line-height: 150%; /* 21px */
+  letter-spacing: -0.7px;
+}
+body .container header .bmi-container .bmi .results .description p {
+  text-align: left;
+  font-size: 14px;
+  line-height: 150%; /* 21px */
+}
+body .container header .bmi-container .bmi .results .description p span {
+  font-weight: 700;
+}
+body main {
+  position: relative;
 }
 
 /*# sourceMappingURL=styles.css.map */
