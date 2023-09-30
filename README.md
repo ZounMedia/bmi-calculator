@@ -46,11 +46,10 @@ Using SASS really made it really easy to organize and maintain my styles.
 
 ### Useful resources
 
-- https://fonts.google.com/specimen/Josefin+Sans - Google Josefin Sans url
+- https://fonts.google.com/specimen/Inter - Google font Inter url
 - https://sass-lang.com/documentation/ - SASS documentation
 - https://www.w3schools.com/jsref/met_element_addeventlistener.asp - How do add HTML DOM element event listeners
 - https://www.geeksforgeeks.org/how-to-prevent-buttons-from-submitting-forms-in-html/ - How to prevent a form from submitting after clicking a button
-- https://www.w3schools.com/howto/howto_css_placeholder.asp - how to change input placeholder color
 
 ## Author
 
