@@ -70,7 +70,7 @@ body .container header .bmi-container .bmi {
   padding: 24px;
 }
 body .container header .bmi-container .bmi h3 {
-  color: #253347 #253347;
+  color: #253347;
   font-size: 24px;
   font-weight: 600;
   letter-spacing: -1.2px;
@@ -206,7 +206,119 @@ body .container header .bmi-container .bmi .results .description p span {
   font-weight: 700;
 }
 body main {
+  padding: 0 24px;
+}
+body main section.about .img-container {
+  width: 100%;
+  height: 355px;
+}
+body main section.about .img-container img {
+  width: 100%;
+  height: 100%;
+}
+body main section.about .heading {
+  margin-top: 48px;
+}
+body main section.about .heading h2 {
+  color: #253347;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%; /* 35.2px */
+  letter-spacing: -1.6px;
+}
+body main section.about .heading p {
+  margin-top: 32px;
+  line-height: 150%; /* 24px */
+}
+body main section.about .benefits {
   position: relative;
+  margin-top: 48px;
+  padding-bottom: 56px;
+}
+body main section.about .benefits .bg-container {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(290deg, #d6e6fe 0%, rgba(214, 252, 254, 0) 100%);
+  opacity: 0.25;
+}
+body main section.about .benefits .item {
+  width: 100%;
+  min-height: 221px;
+  max-height: 241px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 40px;
+}
+body main section.about .benefits .item .icon {
+  height: 64px;
+}
+body main section.about .benefits .item h3 {
+  color: #253347;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -1.2px;
+  margin-top: 32px;
+}
+body main section.about .benefits .item .description {
+  max-height: 96px;
+  min-height: 72px;
+  margin-top: 24px;
+  line-height: 150%; /* 24px */
+}
+body main section.limitations {
+  padding-bottom: 96px;
+}
+body main section.limitations .heading {
+  margin-top: 48px;
+}
+body main section.limitations .heading h2 {
+  color: #253347;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 110%; /* 35.2px */
+  letter-spacing: -1.6px;
+}
+body main section.limitations .heading p {
+  margin-top: 32px;
+  line-height: 150%; /* 24px */
+  text-align: center;
+}
+body main section.limitations .item {
+  width: 100%;
+  min-height: 168px;
+  max-height: 241px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 40px;
+  padding: 24px;
+  background: #ffffff;
+  box-shadow: 16px 32px 56px 0px rgba(143, 174, 207, 0.25);
+}
+body main section.limitations .item .icon {
+  height: 64px;
+  display: flex;
+  align-items: center;
+}
+body main section.limitations .item h3 {
+  color: #253347;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -1.2px;
+  margin-left: 16px;
+}
+body main section.limitations .item .description {
+  max-height: 96px;
+  min-height: 72px;
+  margin-top: 16px;
+}
+body main section.limitations .item .description p {
+  line-height: 150%; /* 24px */
 }
 
 /*# sourceMappingURL=styles.css.map */
